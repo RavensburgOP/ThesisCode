@@ -25,6 +25,6 @@ This should compile the program. Compilation has only been tested on OS X and Ce
 
 It is then possible to run a grid search with:
 
-mpirun -n <number of processes> ./parameter_search <start of grid> <end of grid> <step size>
+mpirun -n \<number of processes\> ./parameter_search \<start of grid\> \<end of grid\> \<step size\>
 
 All variables must be provided for the program to work.
